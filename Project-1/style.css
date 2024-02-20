@@ -1,24 +1,140 @@
-h1 {
-    font-family: 'Montserrat';
-    text-align: center;
-    padding-top: 20px;
-}
-p {
-    font-family: 'Montserrat';
-    text-align: center;}
-body {
-background-color: goldenrod;
-}
-button {
-    font-family: 'Montserrat';
-    font-size: 30px;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    padding: 30px;
-margin-top: 200px;}
 
-.chill_button {
+
+p {
+    display:inline-block;
     text-align: center;
+    font-family: 'indivisble', sans-serif;
+    width:300px;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-blend-mode:hard-light;
+    color:white;
+    font-size: 25px;
+    line-height:10px;
+letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.mood-container {
+    display: inline-block;
+    position:relative;
+    left: 355px;
+    top: 260px;
+}
+
+.bar {
+    background-color: rgb(38, 38, 38);
+    width: 100vw;
+    height: 35px;
+    position: fixed;
+    top: 0px;
+    box-sizing:border-box;
+    padding:20px;
+}
+.logo {
+    font-size: 15px;
+    font-family: "indivisible", serif;
+    font-weight: 400;
+color:white;
+text-transform: uppercase;
+letter-spacing: 3px;
+position:absolute;
+left: 10px;
+top:10px;
+margin-bottom:auto;
+margin-top:auto;
+}
+
+html {
+    background-color: black;
+}
+.line {
+    display:none;
+    background-color: white;
+    height: 400px;
+    width: 2px;
+    position: fixed;
+    left: 785px;
+    bottom: 135px;
+    margin-bottom: 125px;
+}
+.border-buttons {
+    display:none;
+}
+
+.one-bar {
+    display:inline-block;
+    width:300px;
+    height: 600px;
+    background-color: rgb(130, 130, 130);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url(../Images/bart.jpg);
+  background-size: auto;
+  background-position: 30% 40%;
+  box-sizing:border-box;
+  
+
+}
+.two-bar {
+    display:inline-block;
+    width:300px;
+    height: 600px;
+    background-color: rgb(38, 38, 38);
+    background-image: url(../Images/angry.jpg);
+  background-size: 800px;
+  background-position: 50% 40%;
+  box-sizing:border-box;
+  
+}
+.three-bar {
+    display:inline-block;
+    width:300px;
+    height: 600px;
+    background-color: rgb(38, 38, 38);
+    box-sizing:border-box;
+
+  background-image: url(../Images/Chowder.jpg);
+  background-size: 900px;
+  background-position: 35% 60%;
+  
+}
+.four-bar {
+    display:inline-block;
+    width:300px;
+    height: 600px;
+    background-color: rgb(38, 38, 38);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing:border-box;
+  
+  background-image: url(../Images/tom-tired.jpg);
+  background-size: 800px;
+  background-position: 55% 60%;
+  
+}
+.moods-container {
+    display:inline-block;
+    margin:100px;
+    position:absolute;
+    top:50px;
+    border-radius: 15px;
+}
+
+h1 {
+    display:inline-block;
+    margin-top:50px;
+    width:100vw;
+    position:absolute
+    style:caps;
+    left: 50%;
+ text-align: center;
+ font-family: 'indivisble', sans-serif;
+ font-weight: 300;
+font-size: 30px;
+font-style: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+line-height: 80px;
+color: white;
 }
