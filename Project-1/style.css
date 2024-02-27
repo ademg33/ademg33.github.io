@@ -103,16 +103,16 @@ html {
     display:inline-block;
     width:300px;
     height: 600px;
-    background-color: rgb(38, 38, 38);
     border-radius:150px;
+    background-color: rgb(38, 38, 38);
     box-sizing:border-box;
-  background-image: url(./images/Stars.gif);
-  background-size: 800px;
-  background-position: 55% 60%;
+  background-image: url(./images/stars.gif);
+  background-size: 900px;
+  background-position: 35% 60%;
 }
 
 .four-bar:hover {
-    background-image: url(./images/Stars.gif);
+    background-image: url(./images/stars.gif);
     transition: background 0.3s;
 }
 .moods-container {
