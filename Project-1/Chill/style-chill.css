@@ -1,10 +1,9 @@
 h1 {
     display:inline-block;
     margin-top:50px;
-    width:100vw;
-    position:absolute
+    position:absolute;
     style:caps;
-    left: 50%;
+    width: 100vw;
  text-align: center;
  font-family: 'indivisble', sans-serif;
  font-weight: 300;
@@ -83,37 +82,44 @@ margin-top:auto;
     width:300px;
     height: 600px;
     background-color: rgb(130, 130, 130);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  background-image: url(../images/maxresdefault-6.jpg);
-  background-size: auto;
-  background-position: 30% 40%;
-  box-sizing:border-box;
-  
-
+    border-radius:150px;
+  background-image: url(../images/sade.gif);
+  background-size: 600px;
+  background-position: 50% 60%;
+}
+.one-bar:hover {
+    background-image: url(../images/sade.gif);
+    transition: background 0.3s;
 }
 .two-bar {
     display:inline-block;
     width:300px;
     height: 600px;
+    border-radius:150px;
     background-color: rgb(38, 38, 38);
-    background-image: url(../images/r&b.jpg);
+    background-image: url(../images/rnb.gif);
   background-size: 800px;
   background-position: 50% 40%;
   box-sizing:border-box;
-  
+}
+.two-bar:hover {
+    background-image: url(../images/rnb.gif);
+    transition: background 0.3s;
 }
 .three-bar {
     display:inline-block;
     width:300px;
     height: 600px;
+    border-radius:150px;
     background-color: rgb(38, 38, 38);
     box-sizing:border-box;
-    border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-image: url(../images/funny-smile-dope-faces-seamless-pattern-psychedelic-surreal-techno-melt-smile-background-trippy-faces-techno-melting-smile-face-cartoon-background-wallpaper-concept-art-y2k-aesthetic-vector.jpg);
-  background-size: 900px;
+  background-image: url(../images/techno.gif);
+  background-size: 1500px;
   background-position: 35% 60%;
+}
+.three-bar:hover {
+    background-image: url(../images/techno.gif);
+    transition: background 0.3s;
 }
 .moods-container {
     display:inline-block;
@@ -122,4 +128,8 @@ margin-top:auto;
     top:50px;
     left: 150px;
     border-radius: 15px;
+}
+
+.moods-container div{
+    width: 20vw;
 }

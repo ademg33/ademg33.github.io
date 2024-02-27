@@ -33,8 +33,8 @@ letter-spacing: 3px;
 }
 .logo {
     font-size: 15px;
-    font-family: "indivisible", serif;
-    font-weight: 400;
+    font-family: 'indivisble', sans-serif;
+    font-weight: 300;
 color:white;
 text-transform: uppercase;
 letter-spacing: 3px;
@@ -48,16 +48,6 @@ margin-top:auto;
 html {
     background-color: black;
 }
-.line {
-    display:none;
-    background-color: white;
-    height: 400px;
-    width: 2px;
-    position: fixed;
-    left: 785px;
-    bottom: 135px;
-    margin-bottom: 125px;
-}
 .border-buttons {
     display:none;
 }
@@ -67,51 +57,63 @@ html {
     width:300px;
     height: 600px;
     background-color: rgb(130, 130, 130);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  background-image: url(../Images/bart.jpg);
-  background-size: auto;
-  background-position: 30% 40%;
+  border-radius:150px;
+  background-image: url(./images/molten.gif);
+  background-size: 1100px;
+  background-position: 50% 30%;
   box-sizing:border-box;
-  
-
+}
+.one-bar:hover {
+    background-image: url(./images/molten.gif);
+    transition: background 0.3s;
 }
 .two-bar {
     display:inline-block;
     width:300px;
     height: 600px;
     background-color: rgb(38, 38, 38);
-    background-image: url(../Images/angry.jpg);
+    background-image: url(./images/angry.gif);
   background-size: 800px;
+  border-radius:150px;
   background-position: 50% 40%;
-  box-sizing:border-box;
-  
 }
+
+.two-bar:hover {
+    background-image: url(./images/angry.gif));
+    transition: background 0.3s;
+}
+
+
 .three-bar {
     display:inline-block;
     width:300px;
     height: 600px;
+    border-radius:150px;
     background-color: rgb(38, 38, 38);
     box-sizing:border-box;
-
-  background-image: url(../Images/Chowder.jpg);
+  background-image: url(./images/love.gif);
   background-size: 900px;
   background-position: 35% 60%;
-  
+}
+.three-bar:hover {
+    background-image: url(./images/love.gif);
+    transition: background 0.3s;
 }
 .four-bar {
     display:inline-block;
     width:300px;
     height: 600px;
     background-color: rgb(38, 38, 38);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius:150px;
     box-sizing:border-box;
-  
-  background-image: url(../Images/tom-tired.jpg);
+  background-image: url(./images/Stars.gif);
   background-size: 800px;
   background-position: 55% 60%;
-  
+}
+
+.four-bar:hover {
+    background-image: url(./images/Stars.gif);
+    transition: background 0.3s;
 }
 .moods-container {
     display:inline-block;
@@ -121,13 +123,16 @@ html {
     border-radius: 15px;
 }
 
+.moods-container div{
+    width: 20vw;
+}
+
 h1 {
     display:inline-block;
     margin-top:50px;
-    width:100vw;
-    position:absolute
+    position:absolute;
     style:caps;
-    left: 50%;
+    width: 100vw;
  text-align: center;
  font-family: 'indivisble', sans-serif;
  font-weight: 300;
