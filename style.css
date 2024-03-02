@@ -1,16 +1,67 @@
 
 h1 {
-    font-family: 'Montserrat';
-    text-align: center;
-    padding-top: 20px;
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:7vw;
+    color:white;
+    letter-spacing:-1px;
+}
+h2 {
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3vw;
+    color:white;
+    letter-spacing:-1px;
 }
 p {
-    font-family: 'Montserrat';
-    text-align: center;}
-body {
-background-color: goldenrod;
+    font-family: "aileron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1vw;
+    color:white;
+    line-height:15px;
 }
+body {
+background-color: black;
+}
+.box {
+width:50vw;
+height:20vh;
+margin:5px;
+border-bottom: 2px solid white;
+
+}
+.flex-box {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:15vh;
+}
+.top-box {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.mid-box {
+    display:flex;
+    box-sizing:border-box;
+    padding:30px;
+    justify-content: space-between;
+    align-items:center;
+}
+.bot-box {
+    display:flex;
+    box-sizing:border-box;
+    padding:30px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
 button {
+    display:none;
     font-family: 'Montserrat';
     font-size: 30px;
     background-color: black;
