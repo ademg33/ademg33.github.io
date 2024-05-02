@@ -1,0 +1,46 @@
+p {
+    font-size:20px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin:10px;
+    font-stretch: 50%;
+}
+.list {
+    display:flex;
+    width:500px;
+    height:900px;
+color:black;
+    margin:auto;    
+}
+
+.container {
+    display:flex;
+    width:410px;
+    height:800px;
+  
+    position:absolute;
+    left:505px;
+   top:50px;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content:flex-start;
+   row-gap: 0px;
+}
+.box {
+    width:80px;
+    height:116px;
+    margin:0px;
+    border: .5px solid black;
+}
+.barcode {
+    width:100%;
+    height:auto;
+    text-align:right;   
+        font-family: "Libre Barcode 39 Extended Text", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size:40px;
+        margin-top:10px;
+        margin-right:2px;
+}
