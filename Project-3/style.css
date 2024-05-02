@@ -13,6 +13,7 @@ p {
     height:900px;
 color:black;
 padding-top:50px;
+padding-left:50px;
     margin:auto;    
    
     position:absolute;
@@ -21,8 +22,8 @@ padding-top:50px;
 .container {
     margin:auto;
     display:flex;
-    width:410px;
-    height:750px;
+    width:390px;
+    height:730px;
   
     left:500px;
    top:50px;
@@ -32,7 +33,7 @@ padding-top:50px;
    row-gap: 0px;
 }
 .box {
-    width:80px;
+    width:75px;
     height:116px;
     margin:0px;
     border: .5px solid black;
