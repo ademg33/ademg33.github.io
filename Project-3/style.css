@@ -1,5 +1,5 @@
 p {
-    font-size:20px;
+    font-size:18px;
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
@@ -13,7 +13,7 @@ p {
     height:900px;
 color:black;
 padding-top:50px;
-padding-left:50px;
+padding-left:100px;
     margin:auto;    
    
     position:absolute;
@@ -22,19 +22,21 @@ padding-left:50px;
 .container {
     margin:auto;
     display:flex;
-    width:390px;
-    height:730px;
-  
+    width:400px;    
+    height:700px;
+  background-color: white;
     left:500px;
    top:50px;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: right;
    align-content:flex-start;
    row-gap: 0px;
+   margin-top: 50px;
+  
 }
 .box {
-    width:75px;
-    height:116px;
+    width:70px;
+    height:95px;
     margin:0px;
     border: .5px solid black;
 }
@@ -52,10 +54,24 @@ padding-left:50px;
 .center {
     flex-direction: row;
     justify-content: center;
-
+background-color: white;
     display:flex;
-    width:100vw;    
-    height:100vh;
-  
-
+    width:414px;    
+    height:750px;
+    margin:auto;
+}
+.thirty {
+    font-family: "obviously-extended", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    width:400px;
+    height:10px;
+    background-color: yellow;
+    display:inline-block;
+    position:absolute;
+    text-align:right;
+    font-family: obviously-variable, sans-serif;
+    font-size: 50px;
+ line-height: 35px;
+    
 }
