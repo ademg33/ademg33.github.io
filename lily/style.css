@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+.title {
+    font-size: 20px;
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        color:white;
+text-align: left;
+width:auto;
+padding-top:10px;
+padding-left:30px;
+background-color: black;
+position:relative;
+right:400px;
+}
+.description {
+    font-size: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+text-align: left;
+margin:0px;
+width:440px;
+position:relative;
+left:390px;
+margin-top:10px;
+text-align:right;
+}
+.cd {
+
+    position: relative;
+    transition: transform 0.5s ease;
+}
+.cd img {
+    width: 265px;   
+    height: auto;   
+    margin:0;
+}
+.cd audio {
+    
+}
+
+.cd:hover {
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.container {
+  margin-top:50px;
+    display:flex;
+    flex-wrap: wrap;
+    width:100vw;
+    height:100vh;
+    flex-direction:row;
+    justify-content:center;
+}

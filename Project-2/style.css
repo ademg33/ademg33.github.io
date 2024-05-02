@@ -1,0 +1,260 @@
+body {
+    background-color: antiquewhite;
+}
+.heading-bar{
+    display:flex;
+    justify-content:space-between;
+    height:7vh;
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+    padding-left:30px;
+    padding-right:30px;
+}   
+
+.heading{   
+    color:black;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 200;       
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    display:inline-block;
+    margin-top:20px;
+}
+
+
+.font {
+    margin:10px;
+    width: 70vw;
+    height:100px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+}
+.font-container {
+    margin:auto;
+    margin-top:7vh;
+    width: 75vw;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    position:relative;
+    top:300px;
+   
+}
+
+h1 {
+    text-align:center;
+}
+.edits {
+    width: 70vw;
+    height: 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+
+   
+    }
+
+.logo {
+    color:black;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 3px;
+  }
+  .front {
+    background-color: black;
+    color: antiquewhite;
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size:150px;
+        font-weight: 800;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100,
+          "YTLC" 500;
+          line-height: 150px;
+          text-align: left;
+          width:fit-content;
+          margin:auto;
+          margin-top:150px; 
+          padding: 20px;
+          padding-left: 40px;
+          padding-right:40px;   
+        }
+.nav-flex {
+    background-color:antiquewhite;
+    width:41vw;
+    margin:auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+.nav {
+    background-color:black; 
+    color:antiquewhite;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 3px;    
+    margin:10px;    
+    padding:10px;   
+    padding-left:50px;
+    padding-right:50px;
+    cursor:pointer;
+}
+
+.class-container {
+   
+    margin-top:100px;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction:row;
+    line-height: 10px;
+    align-content: flex-start;
+    
+}
+.classes {
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    width:190px;
+    height:190px;
+    background-color: black;
+   margin:25px;
+   color:whitesmoke;
+ padding:10px;
+ font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 3px;    
+    text-transform: uppercase;
+}
+.type {
+    background-image: url(./design-images/15041985b633fb7bb9ed69c538eaf435.jpg);
+    background-size:150px;  
+    background-repeat:no-repeat;
+    background-position:center center;   
+}
+#font1 {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+#font-name {
+  display:flex;
+  justify-content: space-between;
+    font-size: 12px;
+    width:70vw;    
+    text-align: left;   
+margin:0;
+}
+#font2 {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+#font3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#font4 {
+    
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#font5 {
+        font-family: "Antonio", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+#font6 {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YEAR" 1979;
+  
+  }
+
+  .slider {
+    -webkit-appearance: none; /* Hides the default slider */
+    width: 200px; /* Make the slider full-width */
+    height: 5px; /* Set a height for the slider */
+    outline: solid 1px black; /* Remove outline */
+   background-color: antiquewhite;
+   border-radius: 100%;
+    -webkit-transition: .2s; /* 0.2 second transition on hover */
+    transition: opacity .2s;
+    border-radius: 50px;
+  }
+  
+  /* Customizing the slider thumb */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Hides the default thumb */
+    appearance: none;
+    width: 20px; /* Set a specific width */
+    height: 20px; /* Set a specific height */
+    border-radius: 100px;
+    background: black; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+.download {
+    color:antiquewhite;
+}
+.download:hover {
+    color:white;
+}
+
+p {
+    background-color: black;
+    color:antiquewhite;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    width:50vw;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 3px;    
+    margin:10px;    
+    padding:10px;   
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+line-height:40px;
+margin:auto;
+margin-top:150px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a {
+    color:antiquewhite;
+  }
+  a:hover {
+    color:white;
+  }

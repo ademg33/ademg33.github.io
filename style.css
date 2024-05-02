@@ -37,7 +37,7 @@ border-bottom: 2px solid white;
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-top:15vh;
+    margin-top:7vh;
 }
 .top-box {
     display:flex;
@@ -74,3 +74,11 @@ margin-top: 200px;}
 .B1{
     text-align: center;
 }
+
+a {
+    color:white;
+    text-decoration:none;
+}
+a:hover [
+    color:white;
+]
