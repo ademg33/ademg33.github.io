@@ -2,32 +2,33 @@
 .container {
     margin:auto;
     display:flex;
-    width:300px;    
+    width:375px;    
     height:500px;
    top:50px;
    flex-wrap: wrap;
    justify-content: right;
-   align-content:flex-start;
+   align-content:center;
+   justify-content: center;
    row-gap: 0px;
    margin-top: 0px;
    position:absolute;
    z-index:1;
 
+
 }
 .center {
     justify-content: center;
     display:flex;
-    width:414px;    
+    width:375px;    
     height:750px;
     margin:auto;
-    padding-top:500px;
-
+    padding-top:600px;
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
   font-size:15px;
-  padding-left:20px;
-  padding-right:20px;
+
+  text-align:justify;
 }
 .threshhold {
     background-image: url(./images/Screenshot\ 2024-05-02\ at\ 6.54.45\ PM.png);
