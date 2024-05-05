@@ -60,7 +60,6 @@ top:135px;
 .center {
     flex-direction: row;
     justify-content: center;
-
     display:flex;
     width:414px;    
     height:750px;
@@ -69,7 +68,7 @@ top:135px;
    
 }
 .thirty {
-    font-family: "alternate-gothic-compressed", sans-serif;
+    font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
     font-size:50px;
@@ -80,7 +79,7 @@ width:300px;
     position:absolute;
     text-align:left;
  text-transform: uppercase;
- padding-bottom:100px;  
+ padding-bottom:50px;  
 top:140px;
 
  
@@ -96,3 +95,13 @@ top:140px;
     background-color: #ffffff;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:hotpink; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

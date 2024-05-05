@@ -13,8 +13,6 @@
    margin-top: 0px;
    position:absolute;
    z-index:1;
-
-
 }
 .center {
     justify-content: center;
@@ -27,11 +25,99 @@
     font-weight: 400;
     font-style: normal;
   font-size:15px;
-
   text-align:justify;
 }
 .threshhold {
     background-image: url(./images/Screenshot\ 2024-05-02\ at\ 6.54.45\ PM.png);
  background-size: contain;
  background-repeat: no-repeat;
+}
+
+.perspective {
+    background-image: url(./images/Displace.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ border: .5px solid black;
+}
+.bitmap {
+    background-image: url(./images/Bitmap.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+.hue {
+    background-image: url(./images/hue.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+.twirl {
+    background-image: url(./images/twirl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.blur {
+    background-image: url(./images/Blur.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.glass {
+    background-image: url(./images/glass.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.liquify {
+    background-image: url(./images/Liquify.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.clipping {
+    background-image: url(./images/Clipping\ mask.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pucker {
+    background-image: url(./images/pucker.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.glow {
+    background-image: url(./images/Inner\ Glow.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.zig {
+    background-image: url(./images/zigzag.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.inverse {
+    background-image: url(./images/Inverse.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.render {
+    background-image: url(./images/render.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ripple {
+    background-image: url(./images/Ripple.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sphere {
+    background-image: url(./images/sphere.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:hotpink; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
